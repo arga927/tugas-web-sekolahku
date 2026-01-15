@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+}
+
+.header {
+    background: url('header.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(59, 57, 57);
+    
+}
+
+.section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card p,
+.card ol {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.card ol {
+    text-align: left;
+}
